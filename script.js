@@ -1,7 +1,7 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
-  if(sampleObject.key){
+  if(sampleObject.[key]){
 	  return true;
   }
 	else{
